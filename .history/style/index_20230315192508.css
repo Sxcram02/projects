@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+header {
+    background-color:black; 
+    width: 100vw; 
+    text-align:center;
+}
+
+.title-desing {
+    color:white; 
+    font-size:120px;
+    text-shadow: 
+            0px 0px 4px white,
+            0px 0px 11px white,
+            0px 0px 21px white,
+            0px 0px 42px rgb(0, 255, 98),
+            0px 0px 61px rgb(0, 110, 255),
+            0px 0px 84px blue,
+            0px 0px 121px rgb(0, 60, 255),
+            0px 0px 142px rgb(89, 0, 255); 
+    animation: 2s parpadeo infinite;
+    animation-delay: 0.1s;
+}
+
+@keyframes parpadeo {
+    0% {
+        text-shadow: 
+            0px 0px 4px white,
+            0px 0px 11px white,
+            0px 0px 21px white,
+            0px 0px 42px rgb(0, 255, 221),
+            0px 0px 61px rgb(0, 110, 255),
+            0px 0px 84px blue,
+            0px 0px 121px rgb(0, 60, 255),
+            0px 0px 142px rgb(89, 0, 255);
+    }
+    25% {
+        text-shadow: 
+            0px 0px 4px white,
+            0px 0px 11px white,
+            0px 0px 21px white,
+            0px 0px 42px rgb(0, 132, 255),
+            0px 0px 61px rgb(55, 0, 255),
+            0px 0px 84px rgb(132, 0, 255),
+            0px 0px 121px rgb(183, 0, 255),
+            0px 0px 142px rgb(255, 0, 157);
+    }
+}
+
+nav {
+    color:rgba(0, 0.30, 0, 0.51); 
+    width:100vw; 
+    height:1rem;
+}
+
+.projects-navBar {
+    display:flex; 
+    justify-content:space-evenly; 
+    align-items:center; 
+    list-style:none;
+}
+
+li {
+    border:2px solid orange; 
+    width:100px; 
+    color:#fff;
+    font-weight:800;
+    text-shadow: 
+            0px 0px 4px white,
+            0px 0px 11px white,
+            0px 0px 21px white,
+            0px 0px 42px orange,
+            0px 0px 61px orange,
+            0px 0px 84px orange,
+            0px 0px 121px orange,
+            0px 0px 142px orange;
+}
+
+a {
+    text-decoration:none; 
+    color:darkgray
+}

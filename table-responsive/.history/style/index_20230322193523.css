@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: dodgerblue;
+}
+
+.product-table {
+    font-size: 11pt;
+    border: 1px solid rgba(181, 213, 144, 0.5);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 900px;
+}
+
+.product-table th {
+    background-color: dodgerblue;
+    color: white;
+    text-align: right;
+    font-weight: normal;
+}
+
+.product-table td, .product-table th {
+    padding: 10px;
+    border-bottom: 1px solid rgba(181, 213, 144, 0.5);
+}
+
+.product-table td {
+    text-align: right;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.product-table td:before {
+    content: "$ ";
+    color: dodgerblue;
+}
+
+.product-table td:after {
+    content: ".00";
+}
+
+.product-table td:first-of-type::before {
+    content: "";
+}
+
+.product-table td:first-of-type::after {
+    content: "";
+}
+
+.product-table td:first-of-type {
+    text-align: left;
+}
+
+.product-table tr:hover {
+    background-color: rgba(181, 213, 144, 0.2);
+}
+
+.product-table tr:hover td:first-of-type {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.product-table tr td:nth-child(even){
+    background-color: rgba(181, 213, 144, 0.5);
+}
+
+.product-table td:first-child {
+    position: absolute;
+    background-color: white;
+    width: 128px;
+}
+
+.product-table th:first-child {
+    position: absolute;
+    width: 128px;
+    height: 50px;
+}
+

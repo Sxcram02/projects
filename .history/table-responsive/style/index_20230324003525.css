@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100vw;
+    top: 0;
+}
+
+.box-image {
+    width: 100%;
+    height: 25rem;
+    background-image: url("./../media/pugeot-408-hybrid-carro_5120x2880_xtrafondos.com.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 4em;
+    padding: 10px;
+    background: linear-gradient(360deg,rgba(5, 43, 71, 0.663),rgb(12, 94, 153));
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 800;
+    color: aliceblue;
+    list-style: none;
+}
+
+main {
+    background:linear-gradient(360deg,rgba(5, 43, 71, 0.663),rgba(4, 91, 153, 0.869));
+    background-repeat: repeat-y;
+    width: 100vw;
+    padding: 5%;
+    top:5em;
+}
+
+.container {
+    width: 90vw;
+    height: 100vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5%;
+    display: grid;
+    grid-column: 1fr;
+    grid-row: 1fr 1.4fr 2fr;
+    grid-template-areas: "title" "intro" "tables" ;
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    font-size: 40px;
+    margin: 1%;
+    font-weight: 800;
+}
+
+
+.article {
+    width: 100%;
+    height: 50%;
+}
+
+.box-intro {
+    grid-area: intro;
+}
+
+.box-ofers {
+    grid-area: tables;
+}
+
+.part1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part1 p {
+    width: 500px;
+    margin: 1%;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.part2 p {
+    width: 400px;
+    margin: 1%;
+}
+
+img {
+    width:400px;
+}
+
+/* body {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 30, 30);
+}
+
+.product-table {
+    font-size: 11pt;
+    border: 1px solid rgba(181, 213, 144, 0.5);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 900px;
+}
+
+.product-table th {
+    background-color: rgb(209, 133, 20);
+    color: white;
+    text-align: right;
+    font-weight: normal;
+}
+
+.product-table td, .product-table th {
+    padding: 10px;
+    border-bottom: 1px solid rgba(181, 213, 144, 0.5);
+}
+
+.product-table td {
+    text-align: right;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+ .product-table td:before {
+    content: "$ ";
+    color: rgb(255, 30, 30);
+} 
+
+ .product-table td:after {
+    content: ".00";
+} 
+
+.product-table td:first-of-type::before {
+    content: "";
+}
+
+.product-table td:first-of-type::after {
+    content: "";
+} 
+
+.product-table td:first-of-type {
+    text-align: left;
+}
+
+.product-table tr:hover {
+    background-color: rgba(241, 238, 36, 0.637);
+}
+
+.product-table tr:hover td:first-of-type {
+    background-color: rgb(209, 58, 20);
+    color: white;
+}
+
+.product-table tr td:nth-child(even){
+    background-color: rgba(181, 213, 144, 0.5);
+}
+
+.product-table td:first-child {
+    position: absolute;
+    background-color: rgb(209, 133, 20);
+    width: 128px;
+}
+
+.product-table th:first-child {
+    width: 128px;
+    height: 43px;
+} */
+

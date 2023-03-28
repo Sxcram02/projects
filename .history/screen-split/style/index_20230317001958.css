@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    overflow: hidden;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.photoPerfil {
+    width: 80px;
+}
+
+nav {
+    margin-left: 50%;
+    width: 30%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    width:100vw;
+}
+
+aside {
+    width: 100%;
+    height: 10%;
+}
+
+.box-text {
+    background-image: url("media/hardware.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* @media screen and (min-width:1000px){
+    nav {
+        width: 50%;
+    }
+    
+    main {
+        flex-direction: row;
+    }
+
+    div {
+        width: 50%;
+        height: 100vh;
+    }
+} */

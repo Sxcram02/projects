@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100vw;
+    top: 0;
+}
+
+.box-image {
+    width: 100%;
+    height: 25rem;
+    background-image: url("./../media/atardecer-en-un-lago_1920x1200_xtrafondos.com.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 4em;
+    padding: 10px;
+    background: linear-gradient(360deg,rgba(42, 146, 202, 0.964),rgb(7, 123, 161));
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 800;
+    color: aliceblue;
+    list-style: none;
+}
+
+body {
+    background-image: url(./../media/atardecer-en-un-lago_1920x1200_xtrafondos.com.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    background:linear-gradient(360deg,rgba(184, 106, 5, 0.39),rgb(4, 91, 153));
+    background-repeat: repeat-y;
+    width: 100vw;
+    padding: 5%;
+    top:5em;
+}
+
+.container {
+    width: 90vw;
+    background-color: rgba(240, 248, 255, 0.894);
+    border-radius: 20px;
+    padding: 5%;
+    display: grid;
+    grid-column: 1fr;
+    grid-row: 1fr 1.4fr 2fr;
+    grid-template-areas: "title" "intro" "tables" ;
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 3%;
+    font-weight: 800;
+}
+
+.article {
+    width: 100%;
+    height: 50%;
+}
+
+.box-intro {
+    grid-area: intro;
+}
+
+.box-ofers {
+    grid-area: tables;
+    overflow-x: auto;
+}
+
+.part1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+p {
+    width: 700px;
+    margin: 1%;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+img {
+    width:500px;
+    margin: 3%;
+    border: 3px inset dodgerblue;
+    box-shadow: 0px 0px 30px rgb(0, 191, 255);
+}
+
+/* body {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 30, 30);
+}
+*/
+
+.product-table {
+    font-size: 15pt;
+    border: 1px solid rgba(181, 213, 144, 0.5);
+    border-collapse: collapse;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 900px;
+}
+
+.product-table th {
+    background-color: rgba(16, 16, 71, 0.875);
+    text-align: center;
+    font-weight: normal;
+}
+
+.product-table th:first-child {
+    width: 150px;
+    height: 100px;
+} 
+
+.product-table tr:hover {
+    background-color: rgba(241, 238, 36, 0.637);
+}
+
+.product-table tr:hover td:first-of-type {
+    background-color: rgb(209, 58, 20);
+}
+
+.product-table td {
+    text-align: right;
+    padding: 1%;
+}
+
+.product-table td:first-of-type {
+    text-align: left;
+}
+
+.product-table td:first-child {
+    position: absolute;
+    background-color: rgb(16, 16, 71);
+    width: 150px;
+    height: 50px;
+}
+.product-table:nth-child(2){
+    font-size: 48px;
+    color: black;
+}
+
+
